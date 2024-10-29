@@ -37,7 +37,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Bolazcoding/order-summary-card)
-- Live Site URL: [Live site URL](https://bolazcoding.github.io/recipe-page/)
+- Live Site URL: [Live site URL](https://bolazcoding.github.io/order-summary-card/)
 
 ## My process
 
