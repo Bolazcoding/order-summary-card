@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .colors {
+  color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  color: hsl(223, 47%, 23%);
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 35rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1.5rem;
+  box-shadow: 0 0.2rem 1.5rem hsl(224, 23%, 55%);
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.order-body {
+  text-align: center;
+  padding: 3.5rem 3rem;
+}
+
+.order-header {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.order-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.order-plan {
+  display: flex;
+  background-color: #edf2ff;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1.6rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
+
+.music-img {
+  width: 4rem;
+  height: 4rem;
+}
+.price {
+  padding-left: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.plan {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  display: inline-block;
+  color: hsl(245, 75%, 52%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 7rem;
+}
+
+.change:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.pay:link {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem hsl(245, 75%, 52%);
+}
+
+.pay:hover {
+  background-color: hsl(224, 23%, 55%);
+  box-shadow: 0 0rem rem hsl(224, 23%, 55%);
+}
+
+.cancel:link {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* 450.08px */
+@media (max-width: 28.13em) {
+  html {
+    font-size: 57%;
+  }
+
+  .container {
+    max-width: 30rem;
+  }
+
+  .change {
+    margin-left: 3rem;
+  }
+}
+
+/* 300px */
+@media (max-width: 18.75em) {
+  html {
+    font-size: 50%;
+  }
+}
